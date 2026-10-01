@@ -89,6 +89,10 @@ I'm a **Software Engineer with 5+ years of experience** building production syst
 
 ## 🚀 Featured projects
 
+### 💸 [ledger-stream](https://github.com/SnigdhaSrivastva/ledger-stream) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/ledger-stream/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/ledger-stream/actions/workflows/ci.yml)
+Event-driven account ledger. A REST API publishes credits and debits to Kafka, partitioned by account, and consumers apply them to Postgres **exactly once and in order**, with idempotency keys, retries, a dead-letter topic for poison messages and overdraft protection. 11 tests on an embedded Kafka broker cover redelivery, concurrency and failure paths.
+`Java 21` `Spring Boot` `Kafka` `PostgreSQL` `Flyway` `Docker`
+
 ### 🔎 [ROS2 RAG Platform](https://github.com/SnigdhaSrivastva/ros2-rag-platform) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/ros2-rag-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/ros2-rag-platform/actions/workflows/ci.yml)
 Retrieval-augmented Q&A over ROS2 / Nav2 / MoveIt2 / Gazebo docs. Idempotent crawler → MongoDB → chunking + embeddings → Qdrant → FastAPI `/ask` with source citations. Unit-tested and CI-checked.
 `Python` `FastAPI` `Qdrant` `MongoDB` `Docker` · *team project*
