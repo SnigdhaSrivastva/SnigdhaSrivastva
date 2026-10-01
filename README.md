@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/snigdhasrivastva"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:snigdhasrivastva09@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/SnigdhaSrivastva?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/></a>
+  <a href="https://github.com/SnigdhaSrivastva?tab=repositories"><img src="https://img.shields.io/badge/All_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/></a>
 </p>
 
 ## 👋 About me
@@ -40,9 +40,9 @@ I'm a **Software Engineer with 5+ years of experience** building production syst
 <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=grpc&logoColor=white"/>
+<img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logoColor=white"/>
 <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MuleSoft-00A0DF?style=flat-square&logo=mulesoft&logoColor=white"/>
+<img src="https://img.shields.io/badge/MuleSoft-00A0DF?style=flat-square&logoColor=white"/>
 
 **Data stores**<br/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
@@ -59,7 +59,7 @@ I'm a **Software Engineer with 5+ years of experience** building production syst
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white"/>
 <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/>
 
