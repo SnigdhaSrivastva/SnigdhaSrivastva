@@ -109,6 +109,10 @@ Django web app that flags deepfake **images** (fine-tuned Vision Transformer) an
 Interactive mobile prototype of a campus safety app: live map routing with route preferences, guardian sharing, session countdown and one-tap SOS. Built from paper prototypes and user-flow research.
 `JavaScript` `Leaflet` `OpenStreetMap` `UX / HCI`
 
+### 📬 [Job-Search Pipeline: Case Study](https://github.com/SnigdhaSrivastva/job-search-pipeline-case-study)
+My job search as a data pipeline: **41.8k postings** scored by a local-model + LLM cascade for **$11** total, resumes tailored only from a verified fact bank, eligibility and visa-sponsorship filtering, and reply emails fed back into ranking. Extensions I built on a private base system.
+`Python` `Playwright` `OpenAI` `scikit-learn` · *case study*
+
 ### 🏀 [NBA Rookie Contract Manager](https://github.com/SnigdhaSrivastva/nba-rookie-contract-ml)
 Two-stage classifier that predicts contract-extension candidates from rookie stats under severe class imbalance (SMOTE, boosted SVM, bagged Random Forest).
 `scikit-learn` `imbalanced-learn` `pandas` · *team project*
