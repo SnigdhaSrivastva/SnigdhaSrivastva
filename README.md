@@ -73,6 +73,13 @@ I'm a **Software Engineer with 5+ years of experience** building production syst
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
 
+**Frontend**<br/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-663399?style=flat-square&logo=css&logoColor=white"/>
+<img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaFX-007396?style=flat-square&logoColor=white"/>
+
 **Observability**<br/>
 <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white"/>
 <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
@@ -97,6 +104,10 @@ Shake-Shake ResNet-26 written from scratch in PyTorch with a custom autograd fun
 ### 🕵️ [Deepfake Detection System](https://github.com/SnigdhaSrivastva/Deepface-Detection-System)
 Django web app that flags deepfake **images** (fine-tuned Vision Transformer) and **audio** (VGG16 on mel-spectrograms), with user accounts.
 `Django` `PyTorch` `ViT` `librosa` · *team project*
+
+### 🚶 [Campus SafeWalk](https://github.com/SnigdhaSrivastva/campus-safewalk) &nbsp;[**▶ Live demo**](https://snigdhasrivastva.github.io/campus-safewalk/)
+Interactive mobile prototype of a campus safety app: live map routing with route preferences, guardian sharing, session countdown and one-tap SOS. Built from paper prototypes and user-flow research.
+`JavaScript` `Leaflet` `OpenStreetMap` `UX / HCI`
 
 ### 🏀 [NBA Rookie Contract Manager](https://github.com/SnigdhaSrivastva/nba-rookie-contract-ml)
 Two-stage classifier that predicts contract-extension candidates from rookie stats under severe class imbalance (SMOTE, boosted SVM, bagged Random Forest).
