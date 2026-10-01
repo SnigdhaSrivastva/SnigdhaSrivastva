@@ -1,54 +1,108 @@
-# Hi, I'm Snigdha 👋
+<p align="center">
+  <img src="banner.svg" alt="Snigdha Srivastva · Software Engineer · Backend, Data & Applied AI" width="100%"/>
+</p>
 
-**Software Engineer · Backend, Data & Applied AI** · New York, NY
+<p align="center">
+  <a href="https://www.linkedin.com/in/snigdhasrivastva"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:snigdhasrivastva09@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/SnigdhaSrivastva?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/></a>
+</p>
 
-I build production systems end to end: event-driven backends, data pipelines, and LLM/RAG applications. I integrate them into real business workflows in regulated domains like financial services, banking and healthcare. I have 5+ years of experience at Principal Financial Group, Capital Rx, Flipkart and DXC Technology, and an M.S. in Computer Science from NYU (GPA 3.9).
+## 👋 About me
 
-### What I do
+I'm a **Software Engineer with 5+ years of experience** building production systems end to end: event-driven backends, data pipelines and LLM / RAG applications. I've integrated them into real business workflows in regulated domains like **financial services, banking and healthcare**. I have an **M.S. in Computer Science from NYU** (GPA 3.9).
 
-**⚙️ Backend & distributed systems**
-- Java 21 / Spring Boot services on PostgreSQL + Redis processing **1.2M+ daily transactions**
-- Kafka event pipelines sustaining **18,000+ events/min**; moved fragile synchronous calls to async SQS / Lambda workflows
-- Scaled services to 3,000+ req/min at peak shopping events with **99.9% availability**
+- 🏦 **Now:** Software Engineer at **Principal Financial Group**, building Kafka / Spring Boot services for retirement, insurance and investment platforms
+- 🩺 **Before:** ML Engineer Intern at **Capital Rx** (HIPAA), Software Engineer at **Flipkart** and **DXC Technology**
+- 🎯 **Interests:** distributed systems, data platforms, applied AI and customer-facing integrations
 
-**📊 Data engineering**
-- Python / SQL / Spring Batch ETL & ELT pipelines producing curated datasets for analytics and reporting
-- Anomaly-detection pipelines over **6M+ historical financial records**
+## 📈 Impact highlights
 
-**🤖 ML & applied AI**
-- RAG systems (LangChain, LangGraph, Pinecone, Qdrant, Azure OpenAI, Claude, Amazon Bedrock) for clinical, policy and support workflows
-- OCR document-ingestion pipeline handling **1,000+ clinical documents/week**, cutting manual review by ~85% (HIPAA environment)
-- ML deployment and evaluation with MLflow, Azure ML, Docker and Kubernetes. Deep learning with PyTorch (ViT, VGG16)
-
-**🤝 Customer-facing integration (forward-deployed style)**
-- Integrated platforms with **6+ enterprise systems**: SAP S/4HANA, MuleSoft, payment gateways, warehouse and inventory
-- Worked with compliance and business stakeholders to ship secure systems handling sensitive financial and healthcare data
-
-**🛡️ Reliability & security**
-- Cut MTTR from **78 to 38 minutes** with tracing, dashboards, alerting and root-cause-analysis practice
-- OAuth 2.0 / JWT / RBAC with Spring Security. Terraform and CI/CD with GitHub Actions and Jenkins
-
-### Tech
-
-- **Languages:** Java (17/21) · Python · SQL · TypeScript · JavaScript · C++
-- **Backend:** Spring Boot · FastAPI · Django · REST · gRPC · GraphQL · Microservices
-- **Data:** Kafka · Solace · PostgreSQL · Redis · DynamoDB · MongoDB · Oracle · Spring Batch
-- **AI/ML:** LLMs · RAG · LangChain · LangGraph · Qdrant · Pinecone · PyTorch · Hugging Face · MLflow · OCR
-- **Cloud & infra:** AWS (ECS, EKS, Lambda, SQS, Bedrock) · GCP · Azure · Kubernetes · Docker · Terraform
-- **Frontend:** TypeScript · JavaScript · HTML/CSS · Bootstrap · Gradio
-- **Observability:** Datadog · Prometheus · Grafana · CloudWatch · AWS X-Ray · Splunk
-
-### Featured projects
-
-| Project | Area | What it is |
+| ⚙️ Backend & distributed systems | 📊 Data engineering | 🤖 ML & applied AI |
 |---|---|---|
-| [**ros2-rag-platform**](https://github.com/SnigdhaSrivastva/ros2-rag-platform) | AI · Backend · Data | RAG platform: crawler → MongoDB → embeddings → Qdrant → FastAPI API + Gradio UI (team project) |
-| [**Deepface-Detection-System**](https://github.com/SnigdhaSrivastva/Deepface-Detection-System) | ML · Full-stack | Django web app detecting deepfake images (fine-tuned ViT) and audio (VGG16 on spectrograms) (team project) |
-| [**cifar10-shakeshake-resnet**](https://github.com/SnigdhaSrivastva/cifar10-shakeshake-resnet) | Deep learning | Shake-Shake ResNet in PyTorch with AutoAugment, Mixup/CutMix and label smoothing: **93.6%** on CIFAR-10 |
-| [**nba-rookie-contract-ml**](https://github.com/SnigdhaSrivastva/nba-rookie-contract-ml) | Machine learning | Two-stage classifier for NBA contract-extension decisions under severe class imbalance (SMOTE, ensembles) (team project) |
+| **18,000+ events/min** on Kafka pipelines | ETL / ELT pipelines feeding analytics and reporting | RAG over clinical, policy and support knowledge |
+| **1.2M+ daily transactions** on Java 21 / Spring Boot | Data synced across **6+ enterprise systems** (SAP, MuleSoft, WMS) | OCR pipeline handling **1,000+ documents/week**, **~85% less** manual review |
+| **99.9% availability** at 3,000+ req/min peak | Anomaly detection over **6M+ financial records** | MLflow / Azure ML evaluation and deployment |
+| MTTR cut from **78 to 38 min** | Near-real-time reporting with Spring Batch | LangGraph + Claude / Bedrock workflows |
 
-*Most of my professional work lives in private company repositories.*
+## 🛠️ Tech stack
 
-### Contact
+**Languages**<br/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
 
-[LinkedIn](https://www.linkedin.com/in/snigdhasrivastva) · snigdhasrivastva09@gmail.com
+**Backend & streaming**<br/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+<img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=grpc&logoColor=white"/>
+<img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MuleSoft-00A0DF?style=flat-square&logo=mulesoft&logoColor=white"/>
+
+**Data stores**<br/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logoColor=white"/>
+
+**AI / ML**<br/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white"/>
+<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/>
+
+**Cloud & DevOps**<br/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+<img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
+
+**Observability**<br/>
+<img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+<img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white"/>
+<img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white"/>
+
+## 🚀 Featured projects
+
+### 🔎 [ROS2 RAG Platform](https://github.com/SnigdhaSrivastva/ros2-rag-platform) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/ros2-rag-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/ros2-rag-platform/actions/workflows/ci.yml)
+Retrieval-augmented Q&A over ROS2 / Nav2 / MoveIt2 / Gazebo docs. Idempotent crawler → MongoDB → chunking + embeddings → Qdrant → FastAPI `/ask` with source citations. Unit-tested and CI-checked.
+`Python` `FastAPI` `Qdrant` `MongoDB` `Docker` · *team project*
+
+### 🧠 [CIFAR-10 Shake-Shake ResNet](https://github.com/SnigdhaSrivastva/cifar10-shakeshake-resnet)
+Shake-Shake ResNet-26 written from scratch in PyTorch with a custom autograd function, AutoAugment, Mixup / CutMix and label smoothing. **93.6% test accuracy**.
+`PyTorch` `Computer Vision` `Deep Learning`
+
+### 🕵️ [Deepfake Detection System](https://github.com/SnigdhaSrivastva/Deepface-Detection-System)
+Django web app that flags deepfake **images** (fine-tuned Vision Transformer) and **audio** (VGG16 on mel-spectrograms), with user accounts.
+`Django` `PyTorch` `ViT` `librosa` · *team project*
+
+### 🏀 [NBA Rookie Contract Manager](https://github.com/SnigdhaSrivastva/nba-rookie-contract-ml)
+Two-stage classifier that predicts contract-extension candidates from rookie stats under severe class imbalance (SMOTE, boosted SVM, bagged Random Forest).
+`scikit-learn` `imbalanced-learn` `pandas` · *team project*
+
+## 🎓 Education
+
+- **M.S. Computer Science**, New York University · GPA 3.9 / 4.0
+- **B.Tech Electronics & Communication**, GGSIP University · GPA 3.78 / 4.0
+
+---
+
+<p align="center"><i>Most of my professional work lives in private company repositories. Happy to walk through architecture and design decisions.</i></p>
