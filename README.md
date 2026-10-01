@@ -94,7 +94,7 @@ Event-driven account ledger. A REST API publishes credits and debits to Kafka, p
 `Java 21` `Spring Boot` `Kafka` `PostgreSQL` `Flyway` `Docker`
 
 ### 📡 [jobradar](https://github.com/SnigdhaSrivastva/jobradar) &nbsp;[**▶ Live dashboard**](https://snigdhasrivastva.github.io/jobradar/) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/jobradar/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/jobradar/actions/workflows/ci.yml)
-Ranks open roles from **19 companies' public job boards** (5,900+ postings, refreshed daily) with an explainable fit score, tracks them across runs, and tailors a resume for any role using **only verified bullets**. Reads the official Greenhouse, Lever and Ashby APIs; never applies or submits anything.
+Mines the **Common Crawl** index to discover **2,800+ company job boards**, then ranks their open roles daily with an explainable fit score, tracks them across runs, and tailors a resume for any role using **only verified bullets**. Reads the official Greenhouse, Lever and Ashby APIs; never applies or submits anything.
 `Python` `httpx` `SQLite` `Pydantic` `mypy strict` `GitHub Actions`
 
 ### 🏙️ [nyc311-pipeline](https://github.com/SnigdhaSrivastva/nyc311-pipeline) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/nyc311-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/nyc311-pipeline/actions/workflows/ci.yml) [![Daily run](https://github.com/SnigdhaSrivastva/nyc311-pipeline/actions/workflows/daily-run.yml/badge.svg)](https://github.com/SnigdhaSrivastva/nyc311-pipeline/actions/workflows/daily-run.yml)
