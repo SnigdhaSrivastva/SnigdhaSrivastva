@@ -97,6 +97,10 @@ Retrieval-augmented Q&A over ROS2 / Nav2 / MoveIt2 / Gazebo docs. Idempotent cra
 Booking backend where many users compete for limited slots. Atomic capacity holds, claim-by-delete confirmation, idempotency keys, hold expiry, FIFO waitlist and live WebSocket updates. Multi-threaded tests prove a slot is never oversold.
 `Java 21` `Jetty` `JDBC` `PostgreSQL / H2` `WebSocket` `JUnit 5` · *team project*
 
+### ✉️ [Mail Client Components](https://github.com/SnigdhaSrivastva/mail-client-components) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/mail-client-components/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/mail-client-components/actions/workflows/ci.yml)
+Component-based Python workspace: abstract client contracts, Gmail and Trello implementations, a FastAPI service with a generated OpenAPI client, and adapters. I worked on test coverage, CI, lint and type safety: 137 tests, ruff and mypy all clean.
+`Python` `FastAPI` `OpenAPI` `aiohttp` `pytest` `mypy` · *team project*
+
 ### 🧠 [CIFAR-10 Shake-Shake ResNet](https://github.com/SnigdhaSrivastva/cifar10-shakeshake-resnet)
 Shake-Shake ResNet-26 written from scratch in PyTorch with a custom autograd function, AutoAugment, Mixup / CutMix and label smoothing. **93.6% test accuracy**.
 `PyTorch` `Computer Vision` `Deep Learning`
