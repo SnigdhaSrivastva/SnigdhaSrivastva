@@ -34,6 +34,7 @@ I'm a **Software Engineer with 5+ years of experience** building production syst
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
 
 **Backend & streaming**<br/>
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
@@ -92,6 +93,14 @@ I'm a **Software Engineer with 5+ years of experience** building production syst
 ### 💸 [ledger-stream](https://github.com/SnigdhaSrivastva/ledger-stream) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/ledger-stream/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/ledger-stream/actions/workflows/ci.yml)
 Event-driven account ledger. A REST API publishes credits and debits to Kafka, partitioned by account, and consumers apply them to Postgres **exactly once and in order**, with idempotency keys, retries, a dead-letter topic for poison messages and overdraft protection. 11 tests on an embedded Kafka broker cover redelivery, concurrency and failure paths.
 `Java 21` `Spring Boot` `Kafka` `PostgreSQL` `Flyway` `Docker`
+
+### 🪵 [logbus](https://github.com/SnigdhaSrivastva/logbus) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/logbus/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/logbus/actions/workflows/ci.yml)
+A **Kafka-style message broker written from scratch in Go** with zero dependencies: CRC-checked append-only segments that recover from torn writes after a crash, key-hashed partitions for per-key ordering, consumer-group offsets, retention and an HTTP API. ~114k appends/s; tested under the race detector.
+`Go` `Distributed systems` `Storage engines` `net/http`
+
+### 🚇 [subwaypulse](https://github.com/SnigdhaSrivastva/subwaypulse) &nbsp;[**▶ Live board**](https://snigdhasrivastva.github.io/subwaypulse/) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/subwaypulse/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/subwaypulse/actions/workflows/ci.yml)
+Live NYC subway service health from the MTA's real-time protobuf feeds, refreshed **every 30 minutes**: trains running, typical wait and the worst current gap for every line, with the station where it's happening.
+`Python` `GTFS-realtime` `Protobuf` `SQLite` `GitHub Actions`
 
 ### 📡 [jobradar](https://github.com/SnigdhaSrivastva/jobradar) &nbsp;[**▶ Live dashboard**](https://snigdhasrivastva.github.io/jobradar/) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/jobradar/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/jobradar/actions/workflows/ci.yml)
 Mines the **Common Crawl** index to discover **2,800+ company job boards**, then ranks their open roles daily with an explainable fit score, tracks them across runs, and tailors a resume for any role using **only verified bullets**. Reads the official Greenhouse, Lever and Ashby APIs; never applies or submits anything.
