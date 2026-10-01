@@ -97,6 +97,10 @@ Event-driven account ledger. A REST API publishes credits and debits to Kafka, p
 Incremental ELT over **live NYC 311 data** (~10k requests a day), run daily on GitHub Actions: watermark + lookback extraction with retries, pydantic validation that keeps rejects with reasons, Arrow-batch upserts into DuckDB (~30k rows/s), analytics marts, and data-quality gates that hold the watermark on failure.
 `Python` `DuckDB` `PyArrow` `Pydantic` `mypy strict` `GitHub Actions`
 
+### 📄 [docsense](https://github.com/SnigdhaSrivastva/docsense) &nbsp;[**▶ Live demo**](https://snigdhasrivastva.github.io/docsense/) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/docsense/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/docsense/actions/workflows/ci.yml)
+Full-stack document Q&A. A React/TypeScript app parses PDFs and ranks passages with a from-scratch **BM25 index in the browser**, and a FastAPI backend has **Claude** answer using native citations, so every claim links to the exact passage it came from.
+`React` `TypeScript` `FastAPI` `Claude API` `RAG` `Vitest` `pytest`
+
 ### 🔎 [ROS2 RAG Platform](https://github.com/SnigdhaSrivastva/ros2-rag-platform) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/ros2-rag-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/ros2-rag-platform/actions/workflows/ci.yml)
 Retrieval-augmented Q&A over ROS2 / Nav2 / MoveIt2 / Gazebo docs. Idempotent crawler → MongoDB → chunking + embeddings → Qdrant → FastAPI `/ask` with source citations. Unit-tested and CI-checked.
 `Python` `FastAPI` `Qdrant` `MongoDB` `Docker` · *team project*
