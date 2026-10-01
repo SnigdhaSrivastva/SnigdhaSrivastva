@@ -93,6 +93,10 @@ I'm a **Software Engineer with 5+ years of experience** building production syst
 Event-driven account ledger. A REST API publishes credits and debits to Kafka, partitioned by account, and consumers apply them to Postgres **exactly once and in order**, with idempotency keys, retries, a dead-letter topic for poison messages and overdraft protection. 11 tests on an embedded Kafka broker cover redelivery, concurrency and failure paths.
 `Java 21` `Spring Boot` `Kafka` `PostgreSQL` `Flyway` `Docker`
 
+### 📡 [jobradar](https://github.com/SnigdhaSrivastva/jobradar) &nbsp;[**▶ Live dashboard**](https://snigdhasrivastva.github.io/jobradar/) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/jobradar/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/jobradar/actions/workflows/ci.yml)
+Ranks open roles from **19 companies' public job boards** (5,900+ postings, refreshed daily) with an explainable fit score, tracks them across runs, and tailors a resume for any role using **only verified bullets**. Reads the official Greenhouse, Lever and Ashby APIs; never applies or submits anything.
+`Python` `httpx` `SQLite` `Pydantic` `mypy strict` `GitHub Actions`
+
 ### 🏙️ [nyc311-pipeline](https://github.com/SnigdhaSrivastva/nyc311-pipeline) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/nyc311-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/nyc311-pipeline/actions/workflows/ci.yml) [![Daily run](https://github.com/SnigdhaSrivastva/nyc311-pipeline/actions/workflows/daily-run.yml/badge.svg)](https://github.com/SnigdhaSrivastva/nyc311-pipeline/actions/workflows/daily-run.yml)
 Incremental ELT over **live NYC 311 data** (~10k requests a day), run daily on GitHub Actions: watermark + lookback extraction with retries, pydantic validation that keeps rejects with reasons, Arrow-batch upserts into DuckDB (~30k rows/s), analytics marts, and data-quality gates that hold the watermark on failure.
 `Python` `DuckDB` `PyArrow` `Pydantic` `mypy strict` `GitHub Actions`
@@ -125,7 +129,7 @@ Django web app that flags deepfake **images** (fine-tuned Vision Transformer) an
 Interactive mobile prototype of a campus safety app: live map routing with route preferences, guardian sharing, session countdown and one-tap SOS. Built from paper prototypes and user-flow research.
 `JavaScript` `Leaflet` `OpenStreetMap` `UX / HCI`
 
-### 📬 [Job-Search Pipeline: Case Study](https://github.com/SnigdhaSrivastva/job-search-pipeline-case-study)
+### 📬 [Job-Search Pipeline: Case Study](https://github.com/SnigdhaSrivastva/job-search-pipeline-case-study) · results from my own search
 My job search as a data pipeline: **41.8k postings** scored by a local-model + LLM cascade for **$11** total, resumes tailored only from a verified fact bank, eligibility and visa-sponsorship filtering, and reply emails fed back into ranking. Extensions I built on a private base system.
 `Python` `Playwright` `OpenAI` `scikit-learn` · *case study*
 
