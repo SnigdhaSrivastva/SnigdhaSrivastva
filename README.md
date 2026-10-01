@@ -126,6 +126,14 @@ Booking backend where many users compete for limited slots. Atomic capacity hold
 Component-based Python workspace: abstract client contracts, Gmail and Trello implementations, a FastAPI service with a generated OpenAPI client, and adapters. I worked on test coverage, CI, lint and type safety: 137 tests, ruff and mypy all clean.
 `Python` `FastAPI` `OpenAPI` `aiohttp` `pytest` `mypy` · *team project*
 
+### 🌉 [What drives Brooklyn Bridge foot traffic?](https://github.com/SnigdhaSrivastva/brooklyn-bridge-pedestrians) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/brooklyn-bridge-pedestrians/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/brooklyn-bridge-pedestrians/actions/workflows/ci.yml)
+16k hourly counts joined with weather. At the same hour of day, **rain cuts traffic by 66%** and snow by 79%. A chronologically validated gradient-boosting forecast has **34% lower error** than a seasonal baseline (R² 0.85).
+`pandas` `scikit-learn` `time series` `EDA`
+
+### 🧾 [retail-sql-analytics](https://github.com/SnigdhaSrivastva/retail-sql-analytics) &nbsp;[![CI](https://github.com/SnigdhaSrivastva/retail-sql-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/SnigdhaSrivastva/retail-sql-analytics/actions/workflows/ci.yml)
+Six retail business questions in SQL, **verified by tests on a hand-checked dataset**. The tests surfaced five real bugs: join semantics, an undefined alias, dropped zero-sales groups, line vs. order revenue, and tie handling.
+`SQL` `DuckDB` `window functions` `pytest`
+
 ### 🧠 [CIFAR-10 Shake-Shake ResNet](https://github.com/SnigdhaSrivastva/cifar10-shakeshake-resnet)
 Shake-Shake ResNet-26 written from scratch in PyTorch with a custom autograd function, AutoAugment, Mixup / CutMix and label smoothing. **93.6% test accuracy**.
 `PyTorch` `Computer Vision` `Deep Learning`
